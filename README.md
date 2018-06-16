@@ -4,15 +4,12 @@ mikutterのMentionとFavoriteとRetweetイベントをPushoverで通知します
 
 ## 使い方
 ```sh
-$ cd ~/.mikutter/plugin/
-$ git clone https://github.com/yuzumone/mikutter_pushover
+$ mkdir -p ~/.mikutter/plugin && git clone https://github.com/yuzumone/mikutter_pushover.git ~/.mikutter/plugin/mikutter_pushover
 ```
 
-あとは設定画面でUserKeyとTokenを登録してね．
-
-## 不具合
-よくわからないですがプルリクエストください．
-初心者なのでやさしくしてね．
+あとは設定画面でUserKeyとTokenを登録してください．
+またHighPriorityにチェックをつけるとHighPriorityで通知を送ります．
+Heads-upしたいときはチェックしてください．
 
 ## LICENSE
 とりあえずMITで．
