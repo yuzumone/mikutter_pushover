@@ -15,7 +15,7 @@ Plugin.create(:mikutter_pushover) do
 
   on_favorite do |service, user, msg|
     unless user.me?
-      title = "Favorite by #{user.idname}"
+      title = "Favorited by #{user.idname}"
       pushover(title, msg.description)
     end
   end
